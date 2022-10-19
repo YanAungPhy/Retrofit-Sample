@@ -18,6 +18,8 @@ import retrofit2.Response;
 
 public class MainActivity extends AppCompatActivity {
 
+    //github မှာ android studio နဲ့ project တင်နည်း  https://youtu.be/Tzfen6zKKQU
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,10 +37,10 @@ public class MainActivity extends AppCompatActivity {
             public void onResponse(Call<Model> call, Response<Model> response) {
 
 
-               ArrayList<Model.data> data =  response.body().getData();
-               for(Model.data data1 : data){
-                   Log.d("CHECKRESPONSE",data1.getEmail());
-               }
+                ArrayList<Model.data> data = response.body().getData();
+                for (Model.data data1 : data) {
+                    Log.d("CHECKRESPONSE", data1.getEmail());
+                }
             }
 
             @Override
