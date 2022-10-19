@@ -1,4 +1,4 @@
-package com.yap.retrofitsample.retrofit;
+package com.yap.retrofitsample.retrofit.network;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;

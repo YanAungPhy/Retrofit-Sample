@@ -5,13 +5,9 @@ import android.util.Log;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.yap.retrofitsample.retrofit.Datum;
-import com.yap.retrofitsample.retrofit.Model;
-import com.yap.retrofitsample.retrofit.RetrofitApi;
-import com.yap.retrofitsample.retrofit.RetrofitClient;
-
-
-import java.util.List;
+import com.yap.retrofitsample.retrofit.model.Model;
+import com.yap.retrofitsample.retrofit.network.RetrofitApi;
+import com.yap.retrofitsample.retrofit.network.RetrofitClient;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -43,11 +39,12 @@ public class MainActivity extends AppCompatActivity {
             public void onResponse(Call<Model> call, Response<Model> response) {
 
 
-                List<Datum> data = response.body().getData();
-                for (Datum data1 : data) {
-                    Log.d("CHECKRESPONSE", data1.getEmail());
-                    Log.d("CHECKRESPONSE",data1.getAvatar());
-                }
+                Integer data = response.body().getPage();
+                Log.d("CHECKRESPONSE", data+"");
+//                for (Datum data1 : data) {
+//                    Log.d("CHECKRESPONSE", data1.getEmail());
+//                    Log.d("CHECKRESPONSE",data1.getAvatar());
+//                }
             }
 
             @Override
