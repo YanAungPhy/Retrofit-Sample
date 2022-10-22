@@ -1,6 +1,6 @@
-package com.yap.retrofitsample.retrofit.network;
+package com.yap.retrofitsample.Project1.network;
 
-import com.yap.retrofitsample.retrofit.model.Model;
+import com.yap.retrofitsample.Project1.model.Model;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

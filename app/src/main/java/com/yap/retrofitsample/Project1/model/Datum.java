@@ -1,4 +1,4 @@
-package com.yap.retrofitsample.retrofit.model;
+package com.yap.retrofitsample.Project1.model;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

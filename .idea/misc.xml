@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/RetrofitSample/app/src/main/res/drawable/ic_wifi.xml" value="0.171" />
         <entry key="..\:/RetrofitSample/app/src/main/res/layout/activity_main.xml" value="0.17083333333333334" />
+        <entry key="..\:/RetrofitSample/app/src/main/res/layout/activity_mvp_main.xml" value="0.22" />
+        <entry key="..\:/RetrofitSample/app/src/main/res/layout/sample_view_post.xml" value="0.33" />
       </map>
     </option>
   </component>
